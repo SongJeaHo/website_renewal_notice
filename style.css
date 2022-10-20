@@ -38,6 +38,7 @@ body {
     color: #191919;
 }
 
+
 .main-image {
     width: 600px;
     height: auto;
@@ -64,6 +65,10 @@ body {
 }
 
 @media (max-width: 600px) {
+    body {
+        overflow: hidden;
+        touch-action: none;
+    }
     .main-image {
         width: 100%;
     }
